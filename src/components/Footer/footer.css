@@ -1,0 +1,41 @@
+.footerbox{
+    height: 280px;
+    background-color: #000000d9;
+    color: white;
+    padding: 20px;
+    margin-top: 90px;
+}
+.list>ul>li{
+list-style: none;
+margin-bottom: 8px;
+}
+.list>ul>li:hover{
+    cursor: pointer;
+text-decoration: underline;
+}
+
+.list{
+    margin: 10px;
+    /* background-color: aliceblue; */
+}
+
+.listbox{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerlogo{
+    font-size: 33px;
+    font-weight: 600;
+    position: relative;
+    bottom: -30px;
+    left: 40px;
+}
+
+.footercopyright{
+    font-size: 12px;
+    position: relative;
+    left:89%;
+    bottom: 16px;
+}

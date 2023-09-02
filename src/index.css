@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+body{
+    width: 99vw;
+    overflow-x: hidden;
+    background-color:whitesmoke;
+}

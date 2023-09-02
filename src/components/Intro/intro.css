@@ -1,0 +1,29 @@
+.IntroBox{
+    height: 460px;
+    width: 99vw;
+    border: 1px solid black;
+}
+
+.IntroBox::before{
+    content: "";
+    position: absolute;
+    background-image: url("/public/woman.jpg");
+    background-repeat: none;
+    /* background-color: aqua; */
+    width:99vw;
+    height: 74%;
+    z-index: -1;
+    opacity: 0.8;
+
+}
+
+.introDesc{
+    font-size: 2.1rem;
+    font-weight: 500;
+    /* background-color: #f9ef94; */
+    width: 25%;
+    height: 20%;
+    position: relative;
+    top: 9%;
+    left: 70%;
+}

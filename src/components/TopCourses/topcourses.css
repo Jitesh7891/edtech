@@ -1,0 +1,24 @@
+.topoursesbox{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 180vh;
+    padding: 10px;
+    /* background-color: pink; */
+}
+
+.topcoursesheading{
+    font-size: 47px;
+    font-weight: 700;
+    color: rgb(238, 37, 178);
+    margin-left: 14px;
+}
+
+.topcoursesbody{
+    height: 88%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

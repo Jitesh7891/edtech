@@ -1,0 +1,30 @@
+.trustBox{
+    margin-top: 40px;
+    background-color: #e4e8eb;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: center;
+    height: 230px;
+    justify-content: center;
+}
+
+.trustHeading{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color:rgb(92, 89, 89) ;
+    font-weight: 400;
+}
+
+.trustboximages{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.trustimg>img{
+    width: 120%;
+}

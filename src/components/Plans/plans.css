@@ -1,0 +1,117 @@
+.plan-container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 95vh;
+}
+
+.planheading{
+    font-size: 2.8rem;
+    color: rgb(100, 97, 97);
+    font-weight: 700;
+   text-align: center;
+}
+
+.planintro{
+    position: relative;
+    top: -10px;
+    text-align: center;
+}
+
+.planbody{
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid black;
+    height: 70vh;
+
+}
+
+.planinformationbox{
+    height: 85%;
+    display: flex;
+    justify-content: space-between;
+    padding: 27px;
+    flex-direction: column;
+    position: relative;
+    top:-20px
+}
+
+.planName{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.plan2>div:nth-child(1){
+background-color: rgba(0, 172, 14, 0.596);
+
+}
+
+.plan2{
+    background-color: rgb(206, 252, 204);
+}
+
+.plan3>div:nth-child(1){
+background-color: blue;
+
+}
+
+.plan3{
+    background-color: rgb(194, 194, 236);
+}
+
+.plan1>div:nth-child(1){
+background-color: rgb(255, 255, 0);
+
+}
+
+
+.plan1{
+    background-color: rgb(252, 252, 201);
+}
+
+.planprice{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.planpricetext{
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.plnpricenormaltext{
+    margin-bottom: 10px;
+}
+
+.plandesc{
+    position: relative;
+    top:-10px;
+    font-size: 14px;
+}
+
+.planbtn{
+    background-color: rgb(212, 4, 4);
+    color: white;
+    width: 70%;
+    height: 40px;
+    align-self: center;
+}
+
+.planbtn:hover{
+    background-color: red;
+}
+
+.planfeatures{
+    position: relative;
+    top: 20px;
+    font-size: 16px;
+}
